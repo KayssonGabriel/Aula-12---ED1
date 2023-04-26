@@ -10,7 +10,7 @@ public class ListaLigada {
 	public void Josephus() {
 		for (int i = 0; i < p.size(); i++) {
 			while (p.size() > 1) {
-				int num = rand.nextInt(20) + 1;
+				int num = rand.nextInt(100) + 1;
 				int posicaoParaRemover;
 				if (num < p.size()) {
 					posicaoParaRemover = num;
